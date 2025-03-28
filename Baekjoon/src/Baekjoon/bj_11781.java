@@ -12,7 +12,7 @@ public class bj_11781 {
 
 			System.out.println(str);
 		}
-		scanner.close();
+		scanner.close(); //무한루프방지
 
 	}
 
