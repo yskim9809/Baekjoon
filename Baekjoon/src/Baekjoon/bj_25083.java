@@ -11,7 +11,7 @@ public class bj_25083 {
 				   "      |";
 
 		System.out.print(s);
-
+  
 	}
 
 }
