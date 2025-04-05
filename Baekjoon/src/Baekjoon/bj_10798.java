@@ -6,15 +6,26 @@ public class bj_10798 {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		String[][] arr = new String[5][];
-		
-		for(int i=5; i>0; i--) {
+		char[][] arr = new char[5][15];
+		int max = 0;
+		String answer = "";
+
+		for (int i = 0; i < arr.length; i++) {
 			String str = scanner.nextLine();
-			String[] spl = str.split("");
-			for(int j=0; j<spl.length; j++) {
-				arr[i][j] = spl[j];
+			if (max < str.length())
+				max = str.length();
+			for (int j = 0; j < str.length(); j++) {
+				arr[i][j] = str.charAt(j);
 			}
 		}
+		for (int i = 0; i < max; i++) {
+			for (int j = 0; j < 5; j++) {
+				if (arr[j][i] == '\0')
+					continue;
+				answer += arr[j][i];
+			}
+		}
+		System.out.println(answer);
 
 	}
 
