@@ -8,7 +8,7 @@ public class bj_2745 {
 		Scanner sc = new Scanner(System.in);
 		String n = sc.next();
 		int b = sc.nextInt();
-
+//
 		long result = 0;
 		int idx = 0;// 승 0, 1, 2, 3 ....
 		int num = 0;// 계산하기 위해 각 자리 숫자를 10진수로 바꿔준다
