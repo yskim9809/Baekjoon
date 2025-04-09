@@ -23,7 +23,7 @@ public class bj_11005 {
 			else
 				System.out.print((char) (num + 55));
 		}
-
+//
 	}
 
 }
