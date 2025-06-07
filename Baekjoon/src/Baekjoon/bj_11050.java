@@ -10,11 +10,11 @@ public class bj_11050 {
 		Scanner scanner = new Scanner(System.in);
 		int n = scanner.nextInt();
 		int k = scanner.nextInt();
-		System.out.println(factoreal(n) / (factoreal(k) * factoreal(n - k)));
+		System.out.println(factorial(n) / (factorial(k) * factorial(n - k)));
 
 	}
 
-	public static int factoreal(int r) {
+	public static int factorial(int r) {
 		int result = 1;
 		for (int i = r; i > 1; i--) {
 			result *= i;
