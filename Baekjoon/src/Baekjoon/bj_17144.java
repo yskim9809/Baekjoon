@@ -23,6 +23,7 @@ public class bj_17144 {
 				map[i][j] = Integer.parseInt(st.nextToken());
 			}
 		}
+		
 
 	}
 
