@@ -29,7 +29,7 @@ public class bj_11286 {
 			} else {
 				que.add(x);
 			}
-
+ 
 		}
 		System.out.println(sb);
 
