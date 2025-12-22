@@ -23,7 +23,7 @@ public class bj_1735 {
 		System.out.println(c1 / gcd + " " + p1 / gcd); // 기약분수 출력
 
 	}
-
+	//유클리드호제법
 	public static int getGcd(int a, int b) {
 		if (a % b == 0) {
 			return b;
