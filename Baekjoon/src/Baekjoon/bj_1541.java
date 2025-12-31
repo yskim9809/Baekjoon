@@ -2,7 +2,7 @@ package Baekjoon;
 
 import java.util.Scanner;
 
-public class bj_1541 {
+public class bj_1541 { //런타임에러 왜날깡
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
